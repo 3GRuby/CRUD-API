@@ -9,6 +9,6 @@ app.use(bodyParser.json());
 
 app.use('/users', usersRoutes)
 
-app.get('/', (req, res) => res.send('hello from Homepage'));
+app.get('/', (req, res) => res.send('hello'));
 
 app.listen(PORT, () => console.log(`Server running on port: http://localhost:${PORT}`));
